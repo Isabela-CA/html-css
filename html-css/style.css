@@ -1,0 +1,225 @@
+body{
+    padding: 5%;
+    background-color: aqua;
+}
+.contenedor {
+    background-color: white;
+    border-radius: 50px;
+    font-size: 180%;
+}
+.encabezado{
+    padding: 4%;
+    text-align: center;
+}
+.dian {
+    display: grid;
+    width: 30%;
+    height: 30%;
+    margin: 0 auto;
+    place-items: center;
+}
+.head {
+    padding: 4%;
+    text-align: center;
+    margin: 0 auto;
+}
+.p1 {
+    float: left;
+    
+}
+.nom{
+    text-align: center;
+}
+.img1{
+    padding: 1%;
+    margin: 50px;
+    float: left;
+    overflow: scroll;
+    position: relative;
+
+}
+.m1 {
+    text-align: center;
+    color: blue;
+}
+.info1 {
+    margin: 150px;
+}
+.infor1 {
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-right: 100px;
+}
+.p2 {
+    float: right;
+}
+.img2{
+    padding: 1%;
+    margin: 50px;
+    overflow: scroll;
+    position: relative;
+}
+.info2 {
+    margin: 150px;
+}
+.infor2 {
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-right: 100px;
+}
+.p3 {
+    float: left;
+}
+.img3{
+    padding: 1%;
+    margin: 50px;
+    float: left;
+    overflow: scroll;
+    position: relative;
+}
+.info3 {
+    margin: 150px;
+}
+.infor3 {
+    margin-left: 100px;
+    margin-top: 260px;
+    margin-right: 100px;
+}
+.text {
+    padding: 4%;
+    text-align: center;
+    margin: 0 auto;
+}
+.dian2 {
+    width: 10%;
+    height: 10%;
+}
+.l1 {
+    grid-area: s1;
+}
+.l2 {
+    grid-area: s2;
+}
+.l3 {
+    grid-area: s3;
+}
+.l4 {
+    grid-area: s4;
+}
+.l5 {
+    grid-area: s5;
+    align-content: center;
+}
+
+
+.list {
+    display: grid;
+    padding: 4%;
+    text-align: center;
+    margin: 0 auto;
+    grid-template-areas: 's1 s3 s5'
+                            's2 s4 s5';
+}
+
+
+
+@media(max-width:768px){
+    
+    body{
+        padding: 5%;
+        background-color: aqua;
+    }
+    .contenedor {
+        background-color: white;
+        border-radius: 50px;
+        font-size: 18px;
+    }
+    .encabezado{
+        padding: 2%;
+        text-align: center;
+    }
+    .dian {
+        display: grid;
+        width: 30%;
+        height: 30%;
+        margin: 0 auto;
+        place-items: center;
+    }
+    .head {
+        padding: 4%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .p1 {
+        float: left;
+        
+    }
+    .nom{
+        text-align: center;
+    }
+    .img1{
+        width: 200px;
+        margin: 15px;
+        float: left;
+        overflow: scroll;
+        position: relative;
+    
+    }
+    .m1 {
+        text-align: center;
+        color: blue;
+    }
+    .info1 {
+        margin: 15px;
+    }
+    .infor1 {
+        margin-left: 100px;
+        margin-top: 100px;
+        margin-right: 100px;
+    }
+    .p2 {
+        float: right;
+    }
+    .img2{
+        width: 200px;
+        overflow: scroll;
+        position: relative;
+    }
+    .info2 {
+        margin: 15px;
+    }
+    .infor2 {
+        margin-left: 100px;
+        margin-top: 100px;
+        margin-right: 100px;
+    }
+    .p3 {
+        float: left;
+    }
+    .img3{
+        width: 200px;
+        margin: 15px;
+        float: left;
+        overflow: scroll;
+        position: relative;
+    }
+    .info3 {
+        margin: 15px;
+    }
+    .infor3 {
+        margin-left: 100px;
+        margin-top: 100px;
+        margin-right: 100px;
+    }
+    .text {
+        padding: 4%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .dian2 {
+        width: 10%;
+        height: 10%;
+    }
+    
+    
+}
